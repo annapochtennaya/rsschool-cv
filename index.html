@@ -26,13 +26,13 @@
     </div>
         <nav class="menu">
           <ul class="navigation">
-           <li><a href="#contacts">Contacs</a></li> 
-           <li><a href="#about">About me</a></li>
-           <li><a href="#edu">Education</a></li>
-           <li><a href="#skills">My skills</a></li>
-           <li><a href="#code">My first code</a></li>
-           <li><a href="#work">My work</a></li>
-           <li><a href="#lang">Languages</a></li>        
+           <li class="navigation-item"><a class="navigation-link" href="#contacts">Contacs</a></li> 
+           <li class="navigation-item"><a class="navigation-link" href="#about">About me</a></li>
+           <li class="navigation-item"><a class="navigation-link" href="#edu">Education</a></li>
+           <li class="navigation-item"><a class="navigation-link" href="#skills">My skills</a></li>
+           <li class="navigation-item"><a class="navigation-link" href="#code">My first code</a></li>
+           <li class="navigation-item"><a class="navigation-link" href="#work">My work</a></li>
+           <li class="navigation-item"><a class="navigation-link" href="#lang">Languages</a></li>        
           </ul>
         </nav>
     </header>
@@ -66,13 +66,11 @@
       <section class="code">
         <h2 id="code">My first code</h2>
         <code>
-          &lt;link rel="stylesheet" href="style.css"&gt;<br>
-          &lt;title>My CV&lt;/title&gt;<br>
-          &lt;/head&gt;<br>
-          &lt;body&gt;<br>
-          &lt;div class="wrapper"&gt;<br>
-          &lt;header class="header"&gt;<br>
-
+          <pre>
+        function greeting(name){
+          console.log(`Hello world. I am ${name}`);
+        }
+      </pre>
         </code>
       </section>
 
@@ -84,7 +82,7 @@
             Below is a link to my resume</li>
         </ul>
 
-        <a href=”https://annapochtennaya.github.io/rsschool-cv/”>My first CV</a>
+        <a href="https://annapochtennaya.github.io/rsschool-cv/">My first CV</a>
 
         
       </section>
@@ -93,10 +91,10 @@
         <h2 id="lang">Languages</h2> 
 
           <ul>
-          <li>Belorussian - Nativ</li>
-          <li>Russian - Nativ</li>
-          <li>English - Intermediate (B1)</li>
-          <li>Lithuanian - Beginer (A1)</li>
+            <li>Belorussian - Nativ</li>
+            <li>Russian - Nativ</li>
+            <li>English - Intermediate (B1)</li>
+            <li>Lithuanian - Beginer (A1)</li>
           </ul>
 
       </section>
@@ -104,13 +102,14 @@
     </main>
     <footer class="footer">
       <div class="school-link">
-        <img class="school-logo" src="assets/school_logo.jpg" alt="school_logo" width="200">
-        <p>
-          <a href="https://rs.school/js/">JavaScript/Front-end course</a>
-        </p>
-        
-        <a href="https://github.com/annapochtennaya/rsschool-cv">My GitHub</a>
+        <a href="https://rs.school/js/">
+          <img class="school-logo" src="assets/school_logo.jpg" alt="school_logo" width="200">
+          <p>
+            JavaScript/Front-end course
+          </p>
+        </a>
         <p> 2022</p>
+        <a href="https://github.com/annapochtennaya/">My GitHub</a>
       </div>
         
     </footer>
