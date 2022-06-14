@@ -3,3 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-image:url('assets/fon54.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*По центру сделали --- такой прием: указываешь ширину и поля по бокам делаешь авто*/
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+nav {
+    display: block;
+}
+h1 {
+    color: rgb(71, 71, 249);
+    text-align: center;
+    text-shadow: 2px 1px rgb(69, 77, 149);
+}
+/*Так примениться для всех рисунков... У тебя же не один рисунок будет*/
+.logo-photo {
+    border: 5px solid #B1AAFF;
+    float: left;
+    /*margin-left: 300px;*/
+}
+.starts {
+    display: flex;
+    justify-content: flex-start;
+}
+.contacts {
+    padding-left: 40px;
+}
