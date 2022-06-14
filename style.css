@@ -7,8 +7,8 @@ body {
     background-image:url('assets/fon54.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 24px;
 }
-/*По центру сделали --- такой прием: указываешь ширину и поля по бокам делаешь авто*/
 .wrapper {
     width: 900px;
     margin: 0 auto;
@@ -20,16 +20,38 @@ body {
 nav {
     display: block;
 }
+.navigation{
+    margin-top: 20px;
+    list-style: none;
+}
+.navigation-item{
+    float: left;
+    
+}
+.navigation-link {
+    padding: 20px 10px;
+    color: darkgrey;
+    text-decoration: none;
+    display: block;
+    background-color: black;
+}
+.navigation-link:hover {
+    background-color: blue;
+}
+
+.navigation-item + .navigation-item {
+    border-left: 2px solid white;
+}
+
 h1 {
     color: rgb(71, 71, 249);
     text-align: center;
     text-shadow: 2px 1px rgb(69, 77, 149);
 }
-/*Так примениться для всех рисунков... У тебя же не один рисунок будет*/
 .logo-photo {
     border: 5px solid #B1AAFF;
     float: left;
-    /*margin-left: 300px;*/
+    border-radius: 20px;
 }
 .starts {
     display: flex;
@@ -37,4 +59,13 @@ h1 {
 }
 .contacts {
     padding-left: 40px;
+}
+section {
+    margin-top: 40px;
+}
+
+.school-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
