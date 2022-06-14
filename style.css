@@ -17,6 +17,11 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     display: block;
 }
@@ -33,10 +38,10 @@ nav {
     color: darkgrey;
     text-decoration: none;
     display: block;
-    background-color: black;
+    background-color: rgb(42, 40, 40);
 }
 .navigation-link:hover {
-    background-color: blue;
+    background-color: rgb(30, 134, 190);
 }
 
 .navigation-item + .navigation-item {
